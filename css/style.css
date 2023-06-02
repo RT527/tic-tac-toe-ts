@@ -1,0 +1,73 @@
+body {
+  background-color:rgb(9, 59, 9);
+/* Use a system font, if none are available use an available sans-sarif   font */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+margin: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+section.board {
+display: grid;
+grid-template-rows: repeat(3, 10vmin);
+grid-template-columns: repeat(3, 10vmin);
+grid-gap: 0vmin;
+margin-top: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0px;
+position: relative;
+top: -50px;
+cursor:crosshair;
+
+}
+
+div {
+border: 3px solid wheat;
+font-size: 8vmin;
+text-align: center;
+vertical-align: middle;
+}
+
+h1 {
+color: whitesmoke;
+text-align: center;
+font-size: 120px;
+font-family: 'LMS Scooby Doo', regular;
+}
+
+h2 {
+color:crimson;
+text-align:center;
+font-size: 60px;
+font-family: 'Spooky', regular;
+top: -50px;
+position: relative;
+}
+
+button{
+color:black;
+font-size: larger;
+margin: 4px 2px;
+cursor:pointer;
+background-color:white;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 8px;
+border-radius: 15px;
+transition-duration: 0.4s;
+width: 50%;
+}
+
+button:hover {
+background-color: #4CAF50; /* Green */
+color: white;
+}
+
+button:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
