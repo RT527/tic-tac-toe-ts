@@ -1,6 +1,5 @@
 body {
   background-color:rgb(9, 59, 9);
-/* Use a system font, if none are available use an available sans-sarif   font */
 font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 margin: 0;
